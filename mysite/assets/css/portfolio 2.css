@@ -1,0 +1,134 @@
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  body {
+    background-color: #e5e5e5;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  /* Header */
+  
+  header.header {
+    background-color: #0b0b0b;
+    max-width: 1920px;
+    height: 66px;
+    margin: auto;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 6.1rem;
+  }
+  
+  .header__nav {
+    margin: 0 4rem;
+  }
+  
+  .header__nav__link {
+    display: inline-block;
+    line-height: 46px;
+    text-align: center;
+    width: 147px;
+    height: 46px;
+    border-radius: 30px;
+  }
+  
+  .header__nav__link + .header__nav__link {
+    margin-left: 8px;
+  }
+  
+  .header__nav__link:focus {
+    background-color: #fff;
+    color: #000;
+  }
+  
+  /* Designer */
+  
+  section.designer {
+    background-color: rgba(215, 215, 215, 1);
+    display: flex;
+    height: 1022px;
+    max-width: 1920px;
+    margin: auto;
+  }
+  
+  .designer__left {
+    display: flex;
+    flex-direction: column;
+    margin-top: 72px;
+    margin-left: 15%;
+    margin-bottom: 250px;
+    justify-content: space-between;
+  }
+  
+  .designer__left__icons {
+    display: flex;
+  }
+  
+  .logo {
+    width: 53.55px;
+    height: 50px;
+  }
+  
+  .person {
+    display: none;
+  }
+  
+  .box__black {
+    display: none;
+  }
+  
+  .designer__left__text {
+    font-family: "Raleway", sans-serif;
+  }
+  
+  .designer__left__text > h3 {
+    font-size: 40px;
+    line-height: 47px;
+    margin-bottom: 3.8rem;
+  }
+  
+  .designer__left__text > h2 {
+    font-size: 80px;
+    line-height: 94px;
+  }
+  
+  .designer__left__text > p {
+    font-weight: 800;
+    font-size: 25px;
+    line-height: 29px;
+    color: #919191;
+  }
+  
+  .designer__icon {
+    background: #c4c4c4;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 61px;
+    height: 56px;
+  }
+  
+  .designer__icon img {
+    display: inline-block;
+    width: 70%;
+    height:70%;
+  }
+  
+  .designer__icon + .designer__icon {
+    margin-left: 31px;
+  }
+  
